@@ -47,6 +47,7 @@ namespace Login_form
             MySqlDataAdapter adapter = new MySqlDataAdapter();
 
             //User Name = user1, Password = pass//
+            
 
             MySqlCommand command = new MySqlCommand("SELECT * FROM `user` WHERE `username`= @usn and `password` = @pass", db.GetConnection());
 
